@@ -1,0 +1,65 @@
+{
+  "name": "staem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project made with Remix and Tailwind CSS for the challenge: https://blog.zernonia.com/i-design-you-build-frontend-challenge-4-supabase-version",
+  "author": "Arpit Dalal <arpit@arpitdalal.dev> (https://arpitdalal.dev)",
+  "license": "GPL-3.0-only",
+  "main": "server.js",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf ./node_modules/.cache .cache ./build ./public/build \"./app/styles/**/*.css\"",
+    "build": "npm-run-all -p build:*",
+    "build:css": "npm run generate:css -- --minify",
+    "build:remix": "cross-env NODE_ENV=production remix build",
+    "build:worker": "esbuild ./app/entry.worker.ts --outfile=./public/entry.worker.js --minify --bundle --format=esm --define:process.env.NODE_ENV='\"production\"'",
+    "dev": "npm-run-all -p dev:*",
+    "dev:css": "npm run generate:css -- --watch",
+    "dev:remix": "cross-env NODE_ENV=development netlify dev",
+    "dev:worker": "esbuild ./app/entry.worker.ts --outfile=./public/entry.worker.js --bundle --format=esm --define:process.env.NODE_ENV='\"development\"' --watch",
+    "generate:css": "npx tailwindcss -o ./app/tailwind.css",
+    "lint": "eslint .",
+    "start": "cross-env NODE_ENV=production netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.10.0",
+    "@remix-run/netlify": "^1.4.1",
+    "@remix-run/node": "^1.4.1",
+    "@remix-run/react": "^1.4.1",
+    "@supabase/supabase-js": "^1.35.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer-hook": "^2.0.4",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.4.1",
+    "@remix-run/eslint-config": "^1.4.1",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-slick": "^0.23.8",
+    "eslint": "^8.11.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.24",
+    "tailwindcss-skip-link": "^1.0.1",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitdalal/remix-staem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arpitdalal/remix-staem/issues"
+  },
+  "homepage": "https://github.com/arpitdalal/remix-staem#readme"
+}
