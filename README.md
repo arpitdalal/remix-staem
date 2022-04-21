@@ -6,16 +6,27 @@ A project made with [Remix](https://github.com/remix-run/remix) and [Tailwind CS
 ## Features
 
 - Core
+  
   🎯 Get games from [Supabase](https://github.com/supabase/supabase)
+
   🎯 Search games by name
+  
   🎯 Sort games by "Price", "Name"
+  
   🎯 Carousel with [react-slick](https://github.com/akiran/react-slick) and [slick-carousel](https://github.com/kenwheeler/slick)
+  
   🎯 Responsive design with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+  
   🎯 External link to game's page on Steam
+  
 - Additional
+  
   🎯 App works without/before JavaScript loads, thanks to SSR and [Remix](https://github.com/remix-run/remix). All `search`, `sort`, and `infinite loading` features work without/before JavaScript loads
+  
   🎯 PWA support, clicking `Install` button prompts the user to install this app as a PWA on [supported browsers](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent#browser_compatibility), thanks to [Jacob Ebey](https://github.com/jacob-ebey) for this [example](https://github.com/jacob-ebey/remix-pwa)
+  
   🎯 Loading states with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+  
   🎯 Subtle hover animations with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
 
 ## What did I learn?
