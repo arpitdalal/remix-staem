@@ -211,8 +211,10 @@ export default function Screen() {
 
   return (
     <>
-      {isHydrated ? <Carousel games={games.slice(0, 6)} /> : null}
-      <div className="mt-10 overflow-x-hidden pl-5 lg:pl-20">
+      {isHydrated ? (
+        <Carousel games={games.slice(0, 6)} className="mb-32" />
+      ) : null}
+      <div className="overflow-x-hidden pl-5 lg:pl-20">
         <Title>New & Trending</Title>
       </div>
       <Container className="pb-10">
