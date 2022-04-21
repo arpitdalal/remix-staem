@@ -1,6 +1,6 @@
 /// <reference lib="WebWorker" />
 
-import { json } from "@remix-run/node";
+import { json } from "@remix-run/server-runtime";
 
 declare let self: ServiceWorkerGlobalScope;
 

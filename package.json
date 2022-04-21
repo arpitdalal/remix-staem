@@ -39,6 +39,7 @@
   "devDependencies": {
     "@remix-run/dev": "^1.4.1",
     "@remix-run/eslint-config": "^1.4.1",
+    "@remix-run/server-runtime": "^1.4.1",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "@types/react-slick": "^0.23.8",
