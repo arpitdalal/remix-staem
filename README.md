@@ -1,5 +1,5 @@
 # Staem
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_arpit_dalal_)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![Netlify](https://img.shields.io/netlify/ed5bab3c-aadb-4978-8fac-c543d25a7dae)
 
 A project made with [Remix](https://github.com/remix-run/remix) and [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) for this [challenge](https://blog.zernonia.com/i-design-you-build-frontend-challenge-4-supabase-version), hosted on [Netlify](https://netlify.com)
 
