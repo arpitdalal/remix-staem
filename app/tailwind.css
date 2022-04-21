@@ -498,16 +498,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: sticky;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .top-1\/2 {
   top: 50%;
 }
 
 .left-1\/2 {
   left: 50%;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .my-14 {
@@ -541,28 +541,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mb-32 {
   margin-bottom: 8rem;
 }
 
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .block {
@@ -593,14 +581,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
-.h-\[50\%\] {
-  height: 50%;
-}
-
-.h-\[80\%\] {
-  height: 80%;
-}
-
 .max-h-\[500px\] {
   max-height: 500px;
 }
@@ -623,14 +603,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
 }
 
 .max-w-\[250px\] {
@@ -700,10 +672,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 30px;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-t-primary {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -761,6 +729,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -779,30 +751,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-8 {
   padding-right: 2rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -871,11 +819,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .filter {
@@ -1092,10 +1035,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:pl-20 {
     padding-left: 5rem;
-  }
-
-  .lg\:pb-32 {
-    padding-bottom: 8rem;
   }
 
   .lg\:before\:-left-36::before {
