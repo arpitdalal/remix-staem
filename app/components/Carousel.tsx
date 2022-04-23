@@ -78,7 +78,7 @@ function CircularGradient() {
       viewBox="0 0 1440 905"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="absolute top-1/2 left-1/2 w-[100%] -translate-x-1/2 -translate-y-1/2 transform"
+      className="pointer-events-none absolute top-1/2 left-1/2 w-[100%] -translate-x-1/2 -translate-y-1/2 transform"
     >
       <g filter="url(#filter0_f_1701_119)">
         <ellipse cx="729.5" cy="362" rx="433.5" ry="173" fill="#4D6E95" />

@@ -485,6 +485,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: auto;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
