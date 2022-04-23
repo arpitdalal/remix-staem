@@ -1,4 +1,4 @@
-# Staem
+# [Staem](https://remix-staem.netlify.app/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![Netlify](https://img.shields.io/netlify/ed5bab3c-aadb-4978-8fac-c543d25a7dae)
 
 A project made with [Remix](https://github.com/remix-run/remix) and [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) for this [challenge](https://blog.zernonia.com/i-design-you-build-frontend-challenge-4-supabase-version), hosted on [Netlify](https://netlify.com)
@@ -42,4 +42,5 @@ A project made with [Remix](https://github.com/remix-run/remix) and [Tailwind CS
 ## License
 
 © 2022 Arpit Dalal. Released under [GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html)
+
 See [LICENSE.md](./LICENSE.md) for more information
